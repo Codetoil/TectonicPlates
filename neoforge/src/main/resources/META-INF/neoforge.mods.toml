@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+issueTrackerURL = ""
+license = "LicenseRef-GPL-3.0-or-later-WITH-Minecraft-linking-exception"
+
+[[mods]]
+modId = "tectonicplates"
+version = "${version}"
+displayName = "Tectonic Plates"
+authors = "Codetoil"
+description = '''
+Adds techanic plates to Minecraft
+'''
+#logoFile = ""
+
+[[dependencies.tectonicplates]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tectonicplates]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tectonicplates]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "tectonicplates.mixins.json"

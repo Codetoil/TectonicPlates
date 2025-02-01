@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "tectonicplates",
+  "version": "${version}",
+  "name": "Tectonic Plates",
+  "description": "Adds techanic plates to Minecraft",
+  "authors": [
+    "Codetoil"
+  ],
+  "contact": {
+    "homepage": "https://www.codetoil.io"
+  },
+  "license": "https://discord.com/channels/792699517631594506/1019641814497640568",
+  "icon": "assets/tectonicplates/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.codetoil.tectonicplates.fabric.TectonicPlatesFabric"
+    ],
+    "client": [
+      "io.codetoil.tectonicplates.fabric.client.TectonicPlatesFabricClient"
+    ]
+  },
+  "mixins": [
+    "tectonicplates.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}
