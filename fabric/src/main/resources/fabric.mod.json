@@ -8,8 +8,10 @@
     "Codetoil"
   ],
   "contact": {
-    "homepage": "https://www.codetoil.io",
-    "issues": "https://github.com/Codetoil/TectonicPlates/issues"
+    "email": "ianthisawesomee@gmail.com",
+    "homepage": "https://github.com/Codetoil/TectonicPlates",
+    "issues": "https://github.com/Codetoil/TectonicPlates/issues",
+    "sources": "https://github.com/Codetoil/TectonicPlates"
   },
   "license": "LicenseRef-AGPL-3.0-or-later-WITH-Minecraft-linking-exception",
   "icon": "assets/tectonicplates/icon.png",

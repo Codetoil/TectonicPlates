@@ -5,6 +5,8 @@ license = "LicenseRef-AGPL-3.0-or-later-WITH-Minecraft-linking-exception"
 
 [[mods]]
 modId = "tectonicplates"
+modUrl = "https://github.com/Codetoil/TectonicPlates"
+displayURL = "https://github.com/Codetoil/TectonicPlates"
 version = "${version}"
 displayName = "Tectonic Plates"
 authors = "Codetoil"
