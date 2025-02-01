@@ -10,7 +10,7 @@
   "contact": {
     "homepage": "https://www.codetoil.io"
   },
-  "license": "https://discord.com/channels/792699517631594506/1019641814497640568",
+  "license": "LicenseRef-AGPL-3.0-or-later-WITH-Minecraft-linking-exception",
   "icon": "assets/tectonicplates/icon.png",
   "environment": "*",
   "entrypoints": {

@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
 issueTrackerURL = ""
-license = "LicenseRef-GPL-3.0-or-later-WITH-Minecraft-linking-exception"
+license = "LicenseRef-AGPL-3.0-or-later-WITH-Minecraft-linking-exception"
 
 [[mods]]
 modId = "tectonicplates"
