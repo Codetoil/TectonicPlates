@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-issueTrackerURL = ""
+issueTrackerURL = "https://github.com/Codetoil/TectonicPlates/issues"
 license = "LicenseRef-AGPL-3.0-or-later-WITH-Minecraft-linking-exception"
 
 [[mods]]
