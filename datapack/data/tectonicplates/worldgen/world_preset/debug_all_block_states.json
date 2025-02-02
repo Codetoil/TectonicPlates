@@ -13,7 +13,7 @@
         "biome_source": {
           "type": "minecraft:the_end"
         },
-        "settings": "minecraft:end"
+        "settings": "tectonicplates:end"
       }
     },
     "minecraft:the_nether": {
@@ -24,7 +24,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:nether"
         },
-        "settings": "minecraft:nether"
+        "settings": "tectonicplates:nether"
       }
     }
   }
