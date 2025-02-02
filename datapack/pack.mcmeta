@@ -1,3 +1,6 @@
 {
-
+  "pack": {
+    "description": "Adds tectonic plates to Minecraft.",
+    "pack_format": 48
+  }
 }

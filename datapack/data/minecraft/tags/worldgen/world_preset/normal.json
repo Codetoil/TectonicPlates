@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tectonicplates:normal",
+    "tectonicplates:flat",
+    "tectonicplates:large_biomes",
+    "tectonicplates:amplified",
+    "tectonicplates:single_biome_surface"
+  ]
+}
