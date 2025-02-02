@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#tectonicplates:normal",
     "tectonicplates:debug_all_block_states"
   ]
 }
