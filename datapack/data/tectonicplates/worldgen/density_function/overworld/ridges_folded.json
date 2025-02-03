@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 50.0,
+    "argument2": {
+      "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "shifted_noise",
+              "noise": "tectonicplates:plate_velocity_x",
+              "shift_x": 1,
+              "shift_y": 0,
+              "shift_z": 0,
+              "xz_scale": 1,
+              "y_scale": 0
+            },
+            "argument2": {
+              "type": "shifted_noise",
+              "noise": "tectonicplates:plate_velocity_z",
+              "shift_x": 0,
+              "shift_y": 0,
+              "shift_z": 1,
+              "xz_scale": 1,
+              "y_scale": 0
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "shifted_noise",
+                "noise": "tectonicplates:plate_velocity_x",
+                "shift_x": -1,
+                "shift_y": 0,
+                "shift_z": 0,
+                "xz_scale": 1,
+                "y_scale": 0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "shifted_noise",
+                "noise": "tectonicplates:plate_velocity_z",
+                "shift_x": 0,
+                "shift_y": 0,
+                "shift_z": -1,
+                "xz_scale": 1,
+                "y_scale": 0
+              }
+            }
+          }
+    }
+  }
+}
