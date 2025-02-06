@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:add",
+    "argument1": -0.5,
+    "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.1,
+        "argument2": "tectonicplates:overworld/ridges_folded"
+    }
+}
