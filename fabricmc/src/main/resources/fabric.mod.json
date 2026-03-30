@@ -16,18 +16,11 @@
 	"entrypoints": {
 		"main": [
 			"io.codetoil.tectonic_plates.fabricmc.TectonicPlatesEntrypoint"
-		],
-		"client": [
-			"io.codetoil.tectonic_plates.fabricmc.client.TectonicPlatesClientEntrypoint"
-		],
-		"fabric-datagen": [
-			"io.codetoil.tectonic_plates.fabricmc.client.data.TectonicPlatesDataGenerator"
 		]
 	},
 	"mixins": [
 		"tectonic_plates.mixins.json",
 		{
-			"config": "tectonic_plates.client.mixins.json",
 			"environment": "client"
 		}
 	],

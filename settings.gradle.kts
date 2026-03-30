@@ -17,5 +17,5 @@ rootProject.name = "Tectonic Plates"
 
 include("common")
 include("fabricmc")
-include("minecraftforge")
-include("neoforge")
+//include("minecraftforge")
+//include("neoforge")
