@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"contact": {
+		"homepage": "https://github.com/Codetoil/TectonicPlates/",
+		"issues": "https://github.com/Codetoil/TectonicPlates/issues",
+		"sources": "https://github.com/Codetoil/TectonicPlates/"
+	},
+	"description": "${mod_description}${license_statement}\nAuthors: ${mod_authors}\nCredits: ${mod_credits}",
+	"license": "${mod_license}",
+	"icon": "assets/${mod_id}/textures/gui/icon.png",
+	"environment": "*",
+	"accessWidener": "${mod_id}.classtweaker",
+	"entrypoints": {
+
+	},
+	"depends": {
+		"fabricloader": ">=${fabric_loader_version}",
+		"fabric-api": ">=${fabric_api_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=${java_version}"
+	}
+}
+  
