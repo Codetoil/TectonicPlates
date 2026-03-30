@@ -25,7 +25,7 @@
       "y_scale": 0.5
     },
     "continents": "minecraft:overworld/continents",
-    "depth": "tectonicplates:overworld/depth",
+    "depth": "tectonic_plates:overworld/depth",
     "erosion": "minecraft:overworld/erosion",
     "final_density": {
       "type": "minecraft:min",
@@ -244,7 +244,7 @@
       "xz_scale": 1.0,
       "y_scale": 1.0
     },
-    "ridges": "tectonicplates:overworld/ridges",
+    "ridges": "tectonic_plates:overworld/ridges",
     "temperature": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:temperature",

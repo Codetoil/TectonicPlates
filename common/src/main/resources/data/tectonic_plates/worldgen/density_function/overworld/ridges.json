@@ -49,7 +49,7 @@
         "argument2": {
           "type": "add",
           "argument1": 1,
-          "argument2": "tectonicplates:overworld/ridges_folded"
+          "argument2": "tectonic_plates:overworld/ridges_folded"
         }
       }
     }

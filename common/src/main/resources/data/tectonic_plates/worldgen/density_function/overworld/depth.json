@@ -7,5 +7,5 @@
     "to_value": -1.5,
     "to_y": 320
   },
-  "argument2": "tectonicplates:overworld/offset"
+  "argument2": "tectonic_plates:overworld/offset"
 }

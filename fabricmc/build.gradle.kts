@@ -84,6 +84,7 @@ fabricApi {
 	configureDataGeneration()
 	{
 		modId = commonMod.id
+		client = true
 	}
 }
 

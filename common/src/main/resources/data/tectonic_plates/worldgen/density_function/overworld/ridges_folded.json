@@ -9,7 +9,7 @@
         "type": "minecraft:add",
         "argument1": {
           "type": "shifted_noise",
-          "noise": "tectonicplates:plate_velocity_x",
+          "noise": "tectonic_plates:plate_velocity_x",
           "shift_x": 1,
           "shift_y": 0,
           "shift_z": 0,
@@ -18,7 +18,7 @@
         },
         "argument2": {
           "type": "shifted_noise",
-          "noise": "tectonicplates:plate_velocity_z",
+          "noise": "tectonic_plates:plate_velocity_z",
           "shift_x": 0,
           "shift_y": 0,
           "shift_z": 1,
@@ -33,7 +33,7 @@
           "type": "minecraft:add",
           "argument1": {
             "type": "shifted_noise",
-            "noise": "tectonicplates:plate_velocity_x",
+            "noise": "tectonic_plates:plate_velocity_x",
             "shift_x": -1,
             "shift_y": 0,
             "shift_z": 0,
@@ -42,7 +42,7 @@
           },
           "argument2": {
             "type": "shifted_noise",
-            "noise": "tectonicplates:plate_velocity_z",
+            "noise": "tectonic_plates:plate_velocity_z",
             "shift_x": 0,
             "shift_y": 0,
             "shift_z": -1,
