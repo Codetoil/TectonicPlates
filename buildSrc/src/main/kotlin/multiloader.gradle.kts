@@ -26,9 +26,9 @@ tasks {
 			"mod_license" to commonMod.license,
 			"mod_description" to commonMod.description,
 			"mod_credits" to commonMod.credits,
-			"license_statement" to
-				commonMod.prop("license_statement"),
-			"minecraft_version" to commonMod.propOrNull("minecraft_version"),
+			"license_statement" to commonMod.prop("license_statement"),
+			"minecraft_version" to commonMod.prop("minecraft_version"),
+			"minecraft_version_minor" to commonMod.prop("minecraft_version_minor"),
 			"fabric_api_version" to commonMod.propOrNull("fabric_api_version"),
 			"fabric_loader_version" to commonMod.propOrNull("fabric_loader_version"),
 			"minecraftforge_version" to commonMod.propOrNull("minecraftforge_version"),
